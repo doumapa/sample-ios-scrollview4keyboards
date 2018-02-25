@@ -12,7 +12,33 @@
 		CCE1DC0E20417A3F00306A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE1DC0C20417A3F00306A62 /* Main.storyboard */; };
 		CCE1DC1020417A3F00306A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE1DC0F20417A3F00306A62 /* Assets.xcassets */; };
 		CCE1DC1320417A3F00306A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE1DC1120417A3F00306A62 /* LaunchScreen.storyboard */; };
+		CCE1DC1B204181D800306A62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1DC1A204181D800306A62 /* MainView.swift */; };
+		CCE1DC21204189B000306A62 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE1DC1D204189B000306A62 /* Result.framework */; };
+		CCE1DC22204189B000306A62 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE1DC1E204189B000306A62 /* ReactiveCocoa.framework */; };
+		CCE1DC23204189B000306A62 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE1DC1F204189B000306A62 /* ReactiveSwift.framework */; };
+		CCE1DC2D20418BAC00306A62 /* ReactiveCocoa.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = CCE1DC2920418BAC00306A62 /* ReactiveCocoa.framework.dSYM */; };
+		CCE1DC2E20418BAC00306A62 /* Result.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = CCE1DC2A20418BAC00306A62 /* Result.framework.dSYM */; };
+		CCE1DC2F20418BAC00306A62 /* ReactiveSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = CCE1DC2B20418BAC00306A62 /* ReactiveSwift.framework.dSYM */; };
+		CCE1DC3120418BCB00306A62 /* ReactiveCocoa.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = CCE1DC2920418BAC00306A62 /* ReactiveCocoa.framework.dSYM */; };
+		CCE1DC3320418BCB00306A62 /* ReactiveSwift.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = CCE1DC2B20418BAC00306A62 /* ReactiveSwift.framework.dSYM */; };
+		CCE1DC3420418BCB00306A62 /* Result.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = CCE1DC2A20418BAC00306A62 /* Result.framework.dSYM */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCE1DC2620418ACE00306A62 /* Copy dSYMs */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CCE1DC3120418BCB00306A62 /* ReactiveCocoa.framework.dSYM in Copy dSYMs */,
+				CCE1DC3320418BCB00306A62 /* ReactiveSwift.framework.dSYM in Copy dSYMs */,
+				CCE1DC3420418BCB00306A62 /* Result.framework.dSYM in Copy dSYMs */,
+			);
+			name = "Copy dSYMs";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CCE1DC0520417A3F00306A62 /* KeyboardPos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardPos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +48,13 @@
 		CCE1DC0F20417A3F00306A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE1DC1220417A3F00306A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE1DC1420417A3F00306A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE1DC1A204181D800306A62 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CCE1DC1D204189B000306A62 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		CCE1DC1E204189B000306A62 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		CCE1DC1F204189B000306A62 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		CCE1DC2920418BAC00306A62 /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveCocoa.framework.dSYM; path = Carthage/Build/iOS/ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
+		CCE1DC2A20418BAC00306A62 /* Result.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Result.framework.dSYM; path = Carthage/Build/iOS/Result.framework.dSYM; sourceTree = "<group>"; };
+		CCE1DC2B20418BAC00306A62 /* ReactiveSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveSwift.framework.dSYM; path = Carthage/Build/iOS/ReactiveSwift.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE1DC21204189B000306A62 /* Result.framework in Frameworks */,
+				CCE1DC22204189B000306A62 /* ReactiveCocoa.framework in Frameworks */,
+				CCE1DC23204189B000306A62 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +76,8 @@
 			children = (
 				CCE1DC0720417A3F00306A62 /* KeyboardPos */,
 				CCE1DC0620417A3F00306A62 /* Products */,
+				CCE1DC1C204189AF00306A62 /* Frameworks */,
+				CCE1DC2820418B9000306A62 /* dSYMs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +94,33 @@
 			children = (
 				CCE1DC0820417A3F00306A62 /* AppDelegate.swift */,
 				CCE1DC0A20417A3F00306A62 /* ViewController.swift */,
+				CCE1DC1A204181D800306A62 /* MainView.swift */,
 				CCE1DC0C20417A3F00306A62 /* Main.storyboard */,
 				CCE1DC0F20417A3F00306A62 /* Assets.xcassets */,
 				CCE1DC1120417A3F00306A62 /* LaunchScreen.storyboard */,
 				CCE1DC1420417A3F00306A62 /* Info.plist */,
 			);
 			path = KeyboardPos;
+			sourceTree = "<group>";
+		};
+		CCE1DC1C204189AF00306A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1DC1E204189B000306A62 /* ReactiveCocoa.framework */,
+				CCE1DC1F204189B000306A62 /* ReactiveSwift.framework */,
+				CCE1DC1D204189B000306A62 /* Result.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE1DC2820418B9000306A62 /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1DC2920418BAC00306A62 /* ReactiveCocoa.framework.dSYM */,
+				CCE1DC2B20418BAC00306A62 /* ReactiveSwift.framework.dSYM */,
+				CCE1DC2A20418BAC00306A62 /* Result.framework.dSYM */,
+			);
+			name = dSYMs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +133,8 @@
 				CCE1DC0120417A3F00306A62 /* Sources */,
 				CCE1DC0220417A3F00306A62 /* Frameworks */,
 				CCE1DC0320417A3F00306A62 /* Resources */,
+				CCE1DC2520418A1000306A62 /* Copy Frameworks */,
+				CCE1DC2620418ACE00306A62 /* Copy dSYMs */,
 			);
 			buildRules = (
 			);
@@ -124,12 +185,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE1DC1320417A3F00306A62 /* LaunchScreen.storyboard in Resources */,
+				CCE1DC2E20418BAC00306A62 /* Result.framework.dSYM in Resources */,
 				CCE1DC1020417A3F00306A62 /* Assets.xcassets in Resources */,
 				CCE1DC0E20417A3F00306A62 /* Main.storyboard in Resources */,
+				CCE1DC2D20418BAC00306A62 /* ReactiveCocoa.framework.dSYM in Resources */,
+				CCE1DC2F20418BAC00306A62 /* ReactiveSwift.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCE1DC2520418A1000306A62 /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCE1DC0120417A3F00306A62 /* Sources */ = {
@@ -137,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE1DC0B20417A3F00306A62 /* ViewController.swift in Sources */,
+				CCE1DC1B204181D800306A62 /* MainView.swift in Sources */,
 				CCE1DC0920417A3F00306A62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +305,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +355,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -276,12 +366,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T2Z6RR4DM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KeyboardPos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quietbranchstudio.KeyboardPos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -291,12 +385,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T2Z6RR4DM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KeyboardPos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quietbranchstudio.KeyboardPos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
