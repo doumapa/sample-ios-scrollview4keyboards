@@ -11,6 +11,8 @@ import ReactiveCocoa
 
 class MainView: UIView {
 
+  let overlapGap: CGFloat = 10.0
+  
   @IBOutlet weak var scrollView: UIScrollView!
   @IBOutlet weak var scrollContentView: UIView!
   
@@ -48,7 +50,7 @@ class MainView: UIView {
           return
       }
       let endRect = convert(endValue as! CGRect, to: self.window)
-      let keyboardOverlap = scrollView.frame.maxY - endRect.origin.y
+      let keyboardOverlap = scrollView.frame.maxY - endRect.origin.y + overlapGap
       scrollView.contentInset.bottom = keyboardOverlap
       scrollView.scrollIndicatorInsets.bottom = keyboardOverlap
       UIView.animate(withDuration: durationValue as! TimeInterval,
