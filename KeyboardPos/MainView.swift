@@ -29,8 +29,10 @@ class MainView: UIView {
       return
     }
     scrollView.keyboardDismissMode = .interactive
-    scrollContentView.addGestureRecognizer({ (gesture: UIGestureRecognizer) -> UIGestureRecognizer in
-      gesture.reactive.stateChanged.observeValues { [unowned self] _ in
+    scrollContentView.addGestureRecognizer({ [unowned self] (gesture: UIGestureRecognizer) -> UIGestureRecognizer in
+      gesture.reactive.stateChanged
+        .take(duringLifetimeOf: self)
+        .observeValues { [unowned self] _ in
         self.endEditing(true)
       }
       return gesture
